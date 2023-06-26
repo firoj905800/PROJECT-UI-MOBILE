@@ -7,6 +7,7 @@ body{
     background-color: rgb(205, 200, 200);
 }
 .containt{
+    position: absolute;
     width: 100%;
     height: 750px;
 }
@@ -21,10 +22,13 @@ h1{
     padding-left: 20px;
 }
 .pluse{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
+    position: absolute;
+    top: 50px;
+    right: 30px;
     font-size: 30px;
+}
+.hide{
+    color: black;
 }
 .main{
     width:100%;
@@ -36,6 +40,8 @@ h1{
 .container{
     width: 80%;
     height: 500px;
+    position: absolute;
+    top: 100px;
     display: flex;
     flex-wrap: wrap; 
     gap: 20px;
@@ -70,7 +76,7 @@ input{
     margin-left: 5px;
 }
 .item-opa{
-    width: 100%;
+    width: 100%; 
     height: 750px;
     background-color: black;
     position: absolute;
@@ -80,12 +86,11 @@ input{
 }
 .item-opasity{
     width: 100%;
-    height: 580px;
+    height: 766px;
     filter: opacity(50%);
     background-color: black;
     margin: 0;
     padding: 0;
-
 }
 .page2{
     width: 300px;
@@ -144,16 +149,27 @@ a{
     left: 448px
 }
 .parent2{
-    width: 270px;
+    width: 100%;
     position: absolute;
    display: flex;
    justify-content: space-between;
-   left: 448px;
-   top: 60px;
+   padding: 40px;
+   top: 20px;
+}
+.hide1{
+    color: black;
+    padding-left: 6px;
+    top: 5px;
+    font-size: 20px;
 }
 .size{
     font-size: 30px;
-    padding-left: 120px;
+    padding-right: 10px;
+    
+}
+.newhide1{
+    color: black;
+    font-size: 20px;
 }
 .page3opasity{
     width: 100%;
@@ -164,26 +180,40 @@ a{
     flex-direction: column;
    }
    .container{
-    margin-left: 30px;
+    margin-left: 60px;
    }
    .page2{
-    margin-left: -418px;
-
-   }
+    left: 60px;
+}
+.hide1{
+    display: none;
+}
    .item-opa{
     height:1800px;
    }
    .item-opasity{
-    height: 752px;
+    height: 800px;
    }
-   .parent2{
-    margin-top: 180px;
-    margin-left: -400px;
+.parent2{
+    display: flex;
+    margin-top: 170px;  
    }
-   .page3{
+.pluse{
+    left: 175px;
+}
+.hide{
+    display: none;
+}
+   .newhide1{
+    position: absolute;
+    display: none;
+   }
+.page3{
     margin-top: 180px;
-    margin-left: -418px;
-    }
+    left: 70px;
+}
+
+    
 }
 
 
